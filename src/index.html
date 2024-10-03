@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- Cabeçalho da página -->
-    <header>
-        <h1>Bem-vindo ao Portfólio da Nossa Equipe</h1>
-        <p>Conheça nossos membros</p>
+
+    <header class="hero-section">
+        <div class="hero-text">
+            <h1>Bem-vindo ao Portfólio da Nossa Equipe</h1>
+            <p>Conheça nossa equipe DevOps dedicada e nossos projetos inovadores.</p>
+        </div>
     </header>
 
-    <!-- Navegação Principal -->
+    <!-- menu princ -->
     <nav class="main-menu" aria-label="Menu principal">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -22,21 +24,47 @@
         </ul>
     </nav>
 
-    <!-- Seção de membros da equipe -->
-    <section aria-labelledby="team-section">
-        <h2 id="team-section">Membros da Equipe</h2>
-        <nav aria-label="Menu de membros">
-            <ul>
-                <li><a href="membro1.html">Gabriel Santos</a></li>
-                <li><a href="membro2.html">Davi Maciel Cavalcante</a></li>
-                <li><a href="membro3.html">Pablo Vinicius Abdon</a></li>
-                <li><a href="membro4.html">Raimundo Nonato Falcão</a></li>
-                <li><a href="membro5.html">Caiky</a></li>
-            </ul>
-        </nav>
+    <section class="team-intro">
+        <h2>Sobre Nossa Equipe</h2>
+        <p>Somos uma equipe de engenheiros DevOps experientes, comprometidos em entregar automação, otimização e soluções de infraestrutura escaláveis. Nossa missão é garantir que os pipelines de CI/CD sejam rápidos e eficientes, permitindo a entrega contínua de valor para nossos clientes.</p>
     </section>
 
-    <!-- Rodapé da página -->
+    <section aria-labelledby="team-section">
+        <h2 id="team-section">Membros da Equipe</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="./images/Gabriel.jpeg" alt="Gabriel Santos">
+                <h3>Gabriel Santos</h3>
+                <p>Desenvolvedor de Software</p>
+                <a href="membro1.html">Ver perfil</a>
+            </div>
+            <div class="team-card">
+                <img src="davi.jpg" alt="Davi Maciel Cavalcante">
+                <h3>Davi Maciel Cavalcante</h3>
+                <p>Engenheiro de Dados</p>
+                <a href="membro2.html">Ver perfil</a>
+            </div>
+            <div class="team-card">
+                <img src="pablo.jpg" alt="Pablo Vinicius Abdon">
+                <h3>Pablo Vinicius Abdon</h3>
+                <p>GameDev</p>
+                <a href="membro3.html">Ver perfil</a>
+            </div>
+            <div class="team-card">
+                <img src="raimundo.jpg" alt="Raimundo Nonato Falcão">
+                <h3>Raimundo Nonato Falcão</h3>
+                <p>Desenvolvedor de Software</p>
+                <a href="membro4.html">Ver perfil</a>
+            </div>
+            <div class="team-card">
+                <img src="caiky.jpg" alt="Caiky">
+                <h3>Caiky</h3>
+                <p>Desenvolvedor Front-End</p>
+                <a href="membro5.html">Ver perfil</a>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2024 Equipe DevOps. Todos os direitos reservados.</p>
         <p><a href="politica-privacidade.html">Política de Privacidade</a> | <a href="termos-servico.html">Termos de Serviço</a></p>
